@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background-color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px 40px;
+}
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 18px;
+    color: #666;
+}
+.lookbook {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 40px;
+}
+.lookbook .item {
+    width: 300px;
+    text-align: center;
+}
+.lookbook img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+}
+.about {
+    padding: 60px 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+}
